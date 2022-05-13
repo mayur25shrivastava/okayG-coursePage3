@@ -1,0 +1,1192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+
+    <!-- Add icon library -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <!-- font awsome  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+
+
+
+    <!-- style css  -->
+
+    <style>
+      
+      .box img {
+        width: 5%;
+        height: 55%;
+    }
+
+    .box1 img {
+        object-fit: cover;
+    }
+
+
+      .container1{
+        display: flex;
+        justify-content: space-between;
+      }
+
+      .imageva{
+        width: 45vw;
+      }
+      /* .lyingcard{
+        position:fixed;
+      } */
+      .buttons{
+        display: flex;
+        justify-content: space-around;
+      }
+      .checked {
+        color: orange;
+      }
+      .star {
+        display: flex;
+        flex-direction: row;
+      }
+
+        .accordion{
+          width: 43vw;
+        }
+        .inst{
+          display: flex;
+        }
+         /* footer  */
+.bottom{
+    background-color: #000000;
+    color: white;
+    padding: 4rem 0;
+}
+.botnav{
+    max-width: 1170px;
+    margin: 0 auto;
+    overflow: auto;
+    padding: 0 40px;
+    display: grid;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    grid-template-columns: repeat(3,1fr);
+
+}
+.botnav1 h4{
+    font-size: 30px;
+}
+.botnav2 a{
+    color: white;
+}
+.botnav3 a{
+    color: white;
+    list-style: none;
+}
+.botnav2 li{
+    color: white;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+
+    </style>
+
+
+
+
+
+
+
+    <div class="alert alert-warning alert-dismissible fade show" role="alert">
+      <strong>Hello Everyone!</strong> Thousands of topics and trusted
+      instructors right here| Special savings for logged-in visitors through May
+      11.
+      <strong>1 day left!</strong>
+      <button
+        type="button"
+        class="btn-close"
+        data-bs-dismiss="alert"
+        aria-label="Close"
+      ></button>
+    </div>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarTogglerDemo01"
+          aria-controls="navbarTogglerDemo01"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse abd" id="navbarTogglerDemo01">
+          <a class="navbar-brand" href="#">OkayG</a>
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="morecourses.html">More Courese</a>
+            </li>
+            
+          </ul>
+          <button
+            style="margin: 10px"
+            type="button"
+            class="btn btn-outline-success"
+          >
+            Login
+          </button>
+          <button type="button" class="btn btn-outline-success">Sign Up</button>
+          <form class="d-flex px-4">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+<section class="sec1">
+
+    <!-- main heading section  -->
+
+    <div style="background-color: black; height: 45vh; color: white"
+    class="container1 shadow p-3 mb-5 my-3 rounded">
+    <div class="container2">
+      <h6 class="px-4 py-2 text-warning">
+        Development > Programming > Languages Python
+      </h6>
+      <h2 class="px-4 py-2">
+        Learn Python: The Complete Python <br />
+        Programming Course
+      </h2>
+      <h5 class="px-4 py-2">
+        Learn A-Z everything about Python, from the basics,<br/>
+        to advanced topics like Python GUI, Python Data Analysis, and more!
+      </h5>
+
+      <div class="star px-4 py-2">
+        <p class="mx-2">4</p>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star"></span>
+        <p class="mx-1">(2,115 ratings) 13,605 students</p>
+      </div>
+    </div>
+       
+    
+
+        <div class="container2 lyingcard ">
+          <div class="card msd fixed-right " >
+            <img src="images/course2.jpg"  class="img-fluid imageva card-img-top" alt="...">
+            <div class="card-body">
+              
+              <h5 class="card-title text-dark">Learn Python for Beginners</h5>
+              <p  class="card-text text-dark"><span style="font-size:25px ;" class="badge bg-light text-dark">₹639</span>
+                Original Price₹3,499
+                Discount82% off</p>
+                <div class="buttons">
+                  <a href="#" class="btn btn-info px-4 mx-2">Add to Cart</a>
+                  <a href="#" class="btn btn-info px-4">Buy Now</a>
+                </div>
+                <h5 class="text-dark my-4">This course includes:</h5>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bookmark-check-fill" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M2 15.5V2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.74.439L8 13.069l-5.26 2.87A.5.5 0 0 1 2 15.5zm8.854-9.646a.5.5 0 0 0-.708-.708L7.5 7.793 6.354 6.646a.5.5 0 1 0-.708.708l1.5 1.5a.5.5 0 0 0 .708 0l3-3z"/>
+                  </svg>14 hours on-demand video</li>
+                  <li class="list-group-item"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bookmark-check-fill" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M2 15.5V2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.74.439L8 13.069l-5.26 2.87A.5.5 0 0 1 2 15.5zm8.854-9.646a.5.5 0 0 0-.708-.708L7.5 7.793 6.354 6.646a.5.5 0 1 0-.708.708l1.5 1.5a.5.5 0 0 0 .708 0l3-3z"/>
+                  </svg>1 article</li>
+                  <li class="list-group-item"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bookmark-check-fill" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M2 15.5V2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.74.439L8 13.069l-5.26 2.87A.5.5 0 0 1 2 15.5zm8.854-9.646a.5.5 0 0 0-.708-.708L7.5 7.793 6.354 6.646a.5.5 0 1 0-.708.708l1.5 1.5a.5.5 0 0 0 .708 0l3-3z"/>
+                  </svg>3 downloadable resources</li>
+                  <li class="list-group-item"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bookmark-check-fill" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M2 15.5V2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.74.439L8 13.069l-5.26 2.87A.5.5 0 0 1 2 15.5zm8.854-9.646a.5.5 0 0 0-.708-.708L7.5 7.793 6.354 6.646a.5.5 0 1 0-.708.708l1.5 1.5a.5.5 0 0 0 .708 0l3-3z"/>
+                  </svg>Full lifetime access</li>
+                  <li class="list-group-item"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bookmark-check-fill" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M2 15.5V2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.74.439L8 13.069l-5.26 2.87A.5.5 0 0 1 2 15.5zm8.854-9.646a.5.5 0 0 0-.708-.708L7.5 7.793 6.354 6.646a.5.5 0 1 0-.708.708l1.5 1.5a.5.5 0 0 0 .708 0l3-3z"/>
+                  </svg>Access on mobile and TV</li>
+                  <li class="list-group-item"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bookmark-check-fill" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M2 15.5V2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.74.439L8 13.069l-5.26 2.87A.5.5 0 0 1 2 15.5zm8.854-9.646a.5.5 0 0 0-.708-.708L7.5 7.793 6.354 6.646a.5.5 0 1 0-.708.708l1.5 1.5a.5.5 0 0 0 .708 0l3-3z"/>
+                  </svg>Certificate of completion</li>
+                </ul>
+            </div>
+          </div>
+        </div>
+        
+    </div>
+
+   
+</section>
+
+
+
+
+<!-- learn card  -->
+<section class="sec2">
+
+  <div style="width: 38rem" class="card mx-4">
+    <div class="card-body">
+      <h3>What you'll learn</h3>
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="16"
+        height="16"
+        fill="currentColor"
+        class="bi bi-check"
+        viewBox="0 0 16 16"
+      >
+        <path
+          d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"
+        />
+      </svg>
+      Create their own Python Programs
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="16"
+        height="16"
+        fill="currentColor"
+        class="bi bi-check"
+        viewBox="0 0 16 16"
+      >
+        <path
+          d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"
+        />
+      </svg>
+      Create their own Python Programs
+      <br />
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="16"
+        height="16"
+        fill="currentColor"
+        class="bi bi-check"
+        viewBox="0 0 16 16"
+      >
+        <path
+          d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"
+        />
+      </svg>
+      Create their own Python Programs
+    </div>
+  </div>
+</section>
+
+    <!-- Accordian section  -->
+
+    <section class="sec3 ">
+
+      <h3 class="px-4 py-4">Course content</h3>
+  
+      <p class="px-4">View Total courses in our Website</p>
+  
+      <div  class="accordion w-50 px-4 py-4" id="accordionExample">
+        <div class="accordion-item ">
+          <h2 class="accordion-header" id="headingOne">
+            <button
+              class="accordion-button"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseOne"
+              aria-expanded="true"
+              aria-controls="collapseOne"
+            >
+              Course #1
+            </button>
+          </h2>
+          <div
+            id="collapseOne"
+            class="accordion-collapse collapse show"
+            aria-labelledby="headingOne"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body">
+              <strong>This is the first item's accordion body.</strong> It is
+              shown by default, until the collapse plugin adds the appropriate
+              classes that we use to style each element. These classes control the
+              overall appearance, as well as the showing and hiding via CSS
+              transitions. You can modify any of this with custom CSS or
+              overriding our default variables. It's also worth noting that just
+              about any HTML can go within the <code>.accordion-body</code>,
+              though the transition does limit overflow.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseTwo"
+              aria-expanded="false"
+              aria-controls="collapseTwo"
+            >
+              Course #2
+            </button>
+          </h2>
+          <div
+            id="collapseTwo"
+            class="accordion-collapse collapse"
+            aria-labelledby="headingTwo"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body">
+              <strong>This is the second item's accordion body.</strong> It is
+              hidden by default, until the collapse plugin adds the appropriate
+              classes that we use to style each element. These classes control the
+              overall appearance, as well as the showing and hiding via CSS
+              transitions. You can modify any of this with custom CSS or
+              overriding our default variables. It's also worth noting that just
+              about any HTML can go within the <code>.accordion-body</code>,
+              though the transition does limit overflow.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseTwo"
+              aria-expanded="false"
+              aria-controls="collapseTwo"
+            >
+              Course #3
+            </button>
+          </h2>
+          <div
+            id="collapseTwo"
+            class="accordion-collapse collapse"
+            aria-labelledby="headingTwo"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body">
+              <strong>This is the second item's accordion body.</strong> It is
+              hidden by default, until the collapse plugin adds the appropriate
+              classes that we use to style each element. These classes control the
+              overall appearance, as well as the showing and hiding via CSS
+              transitions. You can modify any of this with custom CSS or
+              overriding our default variables. It's also worth noting that just
+              about any HTML can go within the <code>.accordion-body</code>,
+              though the transition does limit overflow.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseTwo"
+              aria-expanded="false"
+              aria-controls="collapseTwo"
+            >
+              Course #4
+            </button>
+          </h2>
+          <div
+            id="collapseTwo"
+            class="accordion-collapse collapse"
+            aria-labelledby="headingTwo"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body">
+              <strong>This is the second item's accordion body.</strong> It is
+              hidden by default, until the collapse plugin adds the appropriate
+              classes that we use to style each element. These classes control the
+              overall appearance, as well as the showing and hiding via CSS
+              transitions. You can modify any of this with custom CSS or
+              overriding our default variables. It's also worth noting that just
+              about any HTML can go within the <code>.accordion-body</code>,
+              though the transition does limit overflow.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseTwo"
+              aria-expanded="false"
+              aria-controls="collapseTwo"
+            >
+              Course #5
+            </button>
+          </h2>
+          <div
+            id="collapseTwo"
+            class="accordion-collapse collapse"
+            aria-labelledby="headingTwo"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body">
+              <strong>This is the second item's accordion body.</strong> It is
+              hidden by default, until the collapse plugin adds the appropriate
+              classes that we use to style each element. These classes control the
+              overall appearance, as well as the showing and hiding via CSS
+              transitions. You can modify any of this with custom CSS or
+              overriding our default variables. It's also worth noting that just
+              about any HTML can go within the <code>.accordion-body</code>,
+              though the transition does limit overflow.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseTwo"
+              aria-expanded="false"
+              aria-controls="collapseTwo"
+            >
+              Course #6
+            </button>
+          </h2>
+          <div
+            id="collapseTwo"
+            class="accordion-collapse collapse"
+            aria-labelledby="headingTwo"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body">
+              <strong>This is the second item's accordion body.</strong> It is
+              hidden by default, until the collapse plugin adds the appropriate
+              classes that we use to style each element. These classes control the
+              overall appearance, as well as the showing and hiding via CSS
+              transitions. You can modify any of this with custom CSS or
+              overriding our default variables. It's also worth noting that just
+              about any HTML can go within the <code>.accordion-body</code>,
+              though the transition does limit overflow.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseTwo"
+              aria-expanded="false"
+              aria-controls="collapseTwo"
+            >
+              Course #7
+            </button>
+          </h2>
+          <div
+            id="collapseTwo"
+            class="accordion-collapse collapse"
+            aria-labelledby="headingTwo"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body">
+              <strong>This is the second item's accordion body.</strong> It is
+              hidden by default, until the collapse plugin adds the appropriate
+              classes that we use to style each element. These classes control the
+              overall appearance, as well as the showing and hiding via CSS
+              transitions. You can modify any of this with custom CSS or
+              overriding our default variables. It's also worth noting that just
+              about any HTML can go within the <code>.accordion-body</code>,
+              though the transition does limit overflow.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseTwo"
+              aria-expanded="false"
+              aria-controls="collapseTwo"
+            >
+              Course #8
+            </button>
+          </h2>
+          <div
+            id="collapseTwo"
+            class="accordion-collapse collapse"
+            aria-labelledby="headingTwo"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body">
+              <strong>This is the second item's accordion body.</strong> It is
+              hidden by default, until the collapse plugin adds the appropriate
+              classes that we use to style each element. These classes control the
+              overall appearance, as well as the showing and hiding via CSS
+              transitions. You can modify any of this with custom CSS or
+              overriding our default variables. It's also worth noting that just
+              about any HTML can go within the <code>.accordion-body</code>,
+              though the transition does limit overflow.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseTwo"
+              aria-expanded="false"
+              aria-controls="collapseTwo"
+            >
+              Course #9
+            </button>
+          </h2>
+          <div
+            id="collapseTwo"
+            class="accordion-collapse collapse"
+            aria-labelledby="headingTwo"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body">
+              <strong>This is the second item's accordion body.</strong> It is
+              hidden by default, until the collapse plugin adds the appropriate
+              classes that we use to style each element. These classes control the
+              overall appearance, as well as the showing and hiding via CSS
+              transitions. You can modify any of this with custom CSS or
+              overriding our default variables. It's also worth noting that just
+              about any HTML can go within the <code>.accordion-body</code>,
+              though the transition does limit overflow.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingThree">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseThree"
+              aria-expanded="false"
+              aria-controls="collapseThree"
+            >
+              Course #10
+            </button>
+          </h2>
+          <div
+            id="collapseThree"
+            class="accordion-collapse collapse"
+            aria-labelledby="headingThree"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body">
+              <strong>This is the third item's accordion body.</strong> It is
+              hidden by default, until the collapse plugin adds the appropriate
+              classes that we use to style each element. These classes control the
+              overall appearance, as well as the showing and hiding via CSS
+              transitions. You can modify any of this with custom CSS or
+              overriding our default variables. It's also worth noting that just
+              about any HTML can go within the <code>.accordion-body</code>,
+              though the transition does limit overflow.
+            </div>
+          </div>
+        </div>
+      </div>
+      
+  
+      <!-- discription abour course  -->
+      <div  class="card card-ab mx-4 w-75">
+        <div class="card-body">
+      <h3 class="mx-4 my-2">Description</h3>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni at doloribus impedit unde accusamus? Velit aut explicabo, earum at neque facilis blanditiis deleniti in facere nam doloremque optio sunt eveniet, voluptatum dolorem, delectus voluptatem quidem! Ad dolores quidem dolor a eum numquam, adipisci consequatur rem neque error officia cum facere.</p>
+  
+      <p>
+        <a class="btn sm-btn-primary text-warning" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+          Read More
+        </a>
+        
+      </p>
+      <div class="collapse" id="collapseExample">
+        <div class=" card-body">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore repellat ea, voluptatum, harum sit neque doloremque esse explicabo fugiat aperiam dicta asperiores sapiente deserunt praesentium illo nostrum provident qui quam fuga voluptates laboriosam culpa nobis veniam. Id maiores voluptatem aperiam cupiditate sunt, quisquam a odio repudiandae, ullam adipisci esse, illum minima expedita magni facere est rerum? Alias nobis fugit ducimus adipisci inventore quis magnam. Neque, nesciunt modi explicabo quidem aliquid iure amet saepe molestias, nemo sunt consectetur, odit necessitatibus facilis eius assumenda nihil quis tenetur et est non dolor? Ducimus consequuntur harum culpa, voluptatibus suscipit accusamus minima nisi eveniet sequi.
+        </div>
+      </div>
+        </div>
+      </div>
+
+
+
+
+
+
+
+
+
+
+      <!-- instructor  -->
+    </section>
+
+
+    <section class="sec4 h-50">
+
+      <h3 class="my-2 mx-4">Instructors</h3>
+      <div class="card mx-4 my-4 w-75">
+      <div class="card-body">
+  
+      <h5 class="mx-4 text-primary">XYZ name_here</h5>
+      <p class="mx-4">CEO of TheCodex.me - Teaching 500,000+ Students how to code</p>
+      <div class="inst">
+        <img class="mx-4" style="border-radius: 50%; height: 10vh;" src="images/logo.jpg" alt="Avatar">
+        <p><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-90deg-right" viewBox="0 0 16 16">
+          <path fill-rule="evenodd" d="M14.854 4.854a.5.5 0 0 0 0-.708l-4-4a.5.5 0 0 0-.708.708L13.293 4H3.5A2.5 2.5 0 0 0 1 6.5v8a.5.5 0 0 0 1 0v-8A1.5 1.5 0 0 1 3.5 5h9.793l-3.147 3.146a.5.5 0 0 0 .708.708l4-4z"/>
+        </svg>4.3 Instructor Rating
+          <br><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-90deg-right" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M14.854 4.854a.5.5 0 0 0 0-.708l-4-4a.5.5 0 0 0-.708.708L13.293 4H3.5A2.5 2.5 0 0 0 1 6.5v8a.5.5 0 0 0 1 0v-8A1.5 1.5 0 0 1 3.5 5h9.793l-3.147 3.146a.5.5 0 0 0 .708.708l4-4z"/>
+          </svg>70,837 Reviews
+          <br><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-90deg-right" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M14.854 4.854a.5.5 0 0 0 0-.708l-4-4a.5.5 0 0 0-.708.708L13.293 4H3.5A2.5 2.5 0 0 0 1 6.5v8a.5.5 0 0 0 1 0v-8A1.5 1.5 0 0 1 3.5 5h9.793l-3.147 3.146a.5.5 0 0 0 .708.708l4-4z"/>
+          </svg>845,061 Students
+          <br><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-90deg-right" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M14.854 4.854a.5.5 0 0 0 0-.708l-4-4a.5.5 0 0 0-.708.708L13.293 4H3.5A2.5 2.5 0 0 0 1 6.5v8a.5.5 0 0 0 1 0v-8A1.5 1.5 0 0 1 3.5 5h9.793l-3.147 3.146a.5.5 0 0 0 .708.708l4-4z"/>
+          </svg>16 Courses</p>
+      </div>
+  
+     
+      <!-- <h3 class="mx-4 my-2">Description</h3> -->
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni at doloribus impedit unde accusamus? Velit aut explicabo, earum at neque facilis blanditiis deleniti in facere nam doloremque optio sunt eveniet, voluptatum dolorem, delectus voluptatem quidem! Ad dolores quidem dolor a eum numquam, adipisci consequatur rem neque error officia cum facere.</p>
+  
+      <p>
+        <a class="btn sm-btn-primary text-warning" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+          Read More
+        </a>
+        
+      </p>
+      <div class="collapse" id="collapseExample">
+        <div class=" card-body">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore repellat ea, voluptatum, harum sit neque doloremque esse explicabo fugiat aperiam dicta asperiores sapiente deserunt praesentium illo nostrum provident qui quam fuga voluptates laboriosam culpa nobis veniam. Id maiores voluptatem aperiam cupiditate sunt, quisquam a odio repudiandae, ullam adipisci esse, illum minima expedita magni facere est rerum? Alias nobis fugit ducimus adipisci inventore quis magnam. Neque, nesciunt modi explicabo quidem aliquid iure amet saepe molestias, nemo sunt consectetur, odit necessitatibus facilis eius assumenda nihil quis tenetur et est non dolor? Ducimus consequuntur harum culpa, voluptatibus suscipit accusamus minima nisi eveniet sequi.
+        </div>
+      </div>
+        </div>
+      </div>
+      <div  class="card mx-4 my-4 w-75">
+        <div class="card-body">
+  
+      <h5 class="mx-4 text-primary">XYZ name_here</h5>
+      <p class="mx-4">CEO of TheCodex.me - Teaching 500,000+ Students how to code</p>
+      <div class="inst">
+        <img class="mx-4" style="border-radius: 50%; height: 10vh;" src="images/logo.jpg" alt="Avatar">
+        <p><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-90deg-right" viewBox="0 0 16 16">
+          <path fill-rule="evenodd" d="M14.854 4.854a.5.5 0 0 0 0-.708l-4-4a.5.5 0 0 0-.708.708L13.293 4H3.5A2.5 2.5 0 0 0 1 6.5v8a.5.5 0 0 0 1 0v-8A1.5 1.5 0 0 1 3.5 5h9.793l-3.147 3.146a.5.5 0 0 0 .708.708l4-4z"/>
+        </svg>4.3 Instructor Rating
+          <br><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-90deg-right" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M14.854 4.854a.5.5 0 0 0 0-.708l-4-4a.5.5 0 0 0-.708.708L13.293 4H3.5A2.5 2.5 0 0 0 1 6.5v8a.5.5 0 0 0 1 0v-8A1.5 1.5 0 0 1 3.5 5h9.793l-3.147 3.146a.5.5 0 0 0 .708.708l4-4z"/>
+          </svg>70,837 Reviews
+          <br><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-90deg-right" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M14.854 4.854a.5.5 0 0 0 0-.708l-4-4a.5.5 0 0 0-.708.708L13.293 4H3.5A2.5 2.5 0 0 0 1 6.5v8a.5.5 0 0 0 1 0v-8A1.5 1.5 0 0 1 3.5 5h9.793l-3.147 3.146a.5.5 0 0 0 .708.708l4-4z"/>
+          </svg>845,061 Students
+          <br><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-90deg-right" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M14.854 4.854a.5.5 0 0 0 0-.708l-4-4a.5.5 0 0 0-.708.708L13.293 4H3.5A2.5 2.5 0 0 0 1 6.5v8a.5.5 0 0 0 1 0v-8A1.5 1.5 0 0 1 3.5 5h9.793l-3.147 3.146a.5.5 0 0 0 .708.708l4-4z"/>
+          </svg>16 Courses</p>
+      </div>
+  
+     
+      <!-- <h3 class="mx-4 my-2">Description</h3> -->
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni at doloribus impedit unde accusamus? Velit aut explicabo, earum at neque facilis blanditiis deleniti in facere nam doloremque optio sunt eveniet, voluptatum dolorem, delectus voluptatem quidem! Ad dolores quidem dolor a eum numquam, adipisci consequatur rem neque error officia cum facere.</p>
+  
+      <p>
+        <a class="btn sm-btn-primary text-warning" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+          Read More
+        </a>
+        
+      </p>
+      <div class="collapse" id="collapseExample">
+        <div class=" card-body">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore repellat ea, voluptatum, harum sit neque doloremque esse explicabo fugiat aperiam dicta asperiores sapiente deserunt praesentium illo nostrum provident qui quam fuga voluptates laboriosam culpa nobis veniam. Id maiores voluptatem aperiam cupiditate sunt, quisquam a odio repudiandae, ullam adipisci esse, illum minima expedita magni facere est rerum? Alias nobis fugit ducimus adipisci inventore quis magnam. Neque, nesciunt modi explicabo quidem aliquid iure amet saepe molestias, nemo sunt consectetur, odit necessitatibus facilis eius assumenda nihil quis tenetur et est non dolor? Ducimus consequuntur harum culpa, voluptatibus suscipit accusamus minima nisi eveniet sequi.
+        </div>
+      </div>
+        </div>
+      </div>
+  
+  
+  
+    
+    </section>
+
+
+
+    <section class="sec5 abcd h-75 my-2 mx-4 w-50">
+      <h3 >Students also bought</h3>
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item d-flex flex-row justify-content-start align-items-start">
+          <!-- <div class="box box1"><img src="images/pythoncourse.jpeg" alt="a balloon"></div> -->
+         <h6>Python for Beginners</h6> 
+          <span class="mx-4" style="color: rgb(247, 167, 81);">4.3</span><span class="fa fa-star checked "></span><i class="fa-solid fa-people-group px-4 mx-2">5,536</i><button type="button" class="btn btn-sm btn-outline-info">Add to Cart</button>
+        </li>
+        <li class="list-group-item d-flex flex-row justify-content-start align-items-start">
+          <!-- <div class="box box1"><img src="images/pythoncourse.jpeg" alt="a balloon"></div> -->
+         <h6>Python for Beginners</h6> 
+          <span class="mx-4" style="color: rgb(247, 167, 81);">4.5</span><span class="fa fa-star checked "></span><i class="fa-solid fa-people-group px-4 mx-2">6,586</i><button type="button" class="btn btn-sm btn-outline-info">Add to Cart</button>
+        </li>
+        <li class="list-group-item d-flex flex-row justify-content-start align-items-start">
+          <!-- <div class="box box1"><img src="images/pythoncourse.jpeg" alt="a balloon"></div> -->
+         <h6>Python for Beginners</h6> 
+          <span class="mx-4" style="color: rgb(247, 167, 81);">4.1</span><span class="fa fa-star checked "></span><i class="fa-solid fa-people-group px-4 mx-2">4,569</i><button type="button" class="btn btn-sm btn-outline-info">Add to Cart</button>
+        </li>
+        <li class="list-group-item d-flex flex-row justify-content-start align-items-start">
+          <!-- <div class="box box1"><img src="images/pythoncourse.jpeg" alt="a balloon"></div> -->
+         <h6>Python for Beginners</h6> 
+          <span class="mx-4" style="color: rgb(247, 167, 81);">3.3</span><span class="fa fa-star checked "></span><i class="fa-solid fa-people-group px-4 mx-2">3,558</i><button type="button" class="btn btn-sm btn-outline-info">Add to Cart</button>
+        </li>
+        <li class="list-group-item d-flex flex-row justify-content-start align-items-start">
+          <!-- <div class="box box1"><img src="images/pythoncourse.jpeg" alt="a balloon"></div> -->
+         <h6>Python for Beginners</h6> 
+          <span class="mx-4" style="color: rgb(247, 167, 81);">4.9</span><span class="fa fa-star checked "></span><i class="fa-solid fa-people-group px-4 mx-2">1,537</i><button type="button" class="btn btn-sm btn-outline-info">Add to Cart</button>
+        </li>
+        
+        <li class="list-group-item d-flex flex-row justify-content-start align-items-start">
+          <!-- <div class="box box1"><img src="images/pythoncourse.jpeg" alt="a balloon"></div> -->
+         <h6>Python for Beginners</h6> 
+          <span class="mx-4" style="color: rgb(247, 167, 81);">5.3</span><span class="fa fa-star checked "></span><i class="fa-solid fa-people-group px-4 mx-2">7,694</i><button type="button" class="btn btn-sm btn-outline-info">Add to Cart</button>
+        </li>
+        
+      </ul>
+    </section>
+    
+  
+  
+    
+ 
+ <section class="sec6 h-75">  
+  <div class="container7">
+
+    <div class=" my-2 mx-4 w-75">
+      <h3>Student feedback</h3>
+      <h1 style="color: rgb(229, 166, 29);">4.3</h1>
+      <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star"></span>
+      <h6 style="color: rgb(241, 168, 12);">Course Rating</h6>
+  </div>
+
+  </section>
+
+ <section class="morec my-2 mx-4 w-75">
+    <h3>More Courses by Avinash Jain</h3>
+
+    <!-- card many  -->
+    <!-- <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col">
+        <div class="card">
+          <img src="images/pythoncourse.jpeg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Learn advance Python with Library and modules</h5>
+            <p class="card-text">Instructor:xyz Instructor_name</p>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            <p>*9 total hour *55 Lectures *All Levels</p>
+            <h5>$349</h5>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="images/pythoncourse.jpeg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Learn advance Python with Library and modules</h5>
+            <p class="card-text">Instructor:xyz Instructor_name</p>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            <p>*9 total hour *55 Lectures *All Levels</p>
+            <h5>$349</h5>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="images/pythoncourse.jpeg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Learn advance Python with Library and modules</h5>
+            <p class="card-text">Instructor:xyz Instructor_name</p>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            <p>*9 total hour *55 Lectures *All Levels</p>
+            <h5>$349</h5>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="images/pythoncourse.jpeg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Learn advance Python with Library and modules</h5>
+            <p class="card-text">Instructor:xyz Instructor_name</p>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            <p>*9 total hour *55 Lectures *All Levels</p>
+            <h5>$349</h5>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="images/pythoncourse.jpeg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Learn advance Python with Library and modules</h5>
+            <p class="card-text">Instructor:xyz Instructor_name</p>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            <p>*9 total hour *55 Lectures *All Levels</p>
+            <h5>$349</h5>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="images/pythoncourse.jpeg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Learn advance Python with Library and modules</h5>
+            <p class="card-text">Instructor:xyz Instructor_name</p>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            <p>*9 total hour *55 Lectures *All Levels</p>
+            <h5>$349</h5>
+          </div>
+        </div>
+      </div>
+    </div> -->
+    <div class="row row-cols-1 row-cols-md-4 g-4 ">
+      <div class="col text-center">
+        <div class="card">
+          <img src="https://www.eleapsoftware.com/wp-content/uploads/2020/03/66-Creat-Online-Course-1024x522.jpg"
+            class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Python Tutorial</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+              content. This content is a little bit longer.</p>
+            <a type="button" href="course.html" class="btn btn-primary">Start Course</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card text-center">
+          <img src="https://www.eleapsoftware.com/wp-content/uploads/2020/03/66-Creat-Online-Course-1024x522.jpg"
+            class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Python Tutorial</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+              content. This content is a little bit longer.</p>
+            <a type="button" href="course.html" class="btn btn-primary">Start Course</a>
+          </div>
+        </div>
+      </div>
+      <div class="col text-center">
+        <div class="card">
+          <img src="https://www.eleapsoftware.com/wp-content/uploads/2020/03/66-Creat-Online-Course-1024x522.jpg"
+            class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Python Tutorial</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+              content.</p>
+            <a type="button" href="course.html" class="btn btn-primary">Start Course</a>
+          </div>
+        </div>
+      </div>
+      <div class="col text-center">
+        <div class="card">
+          <img src="https://www.eleapsoftware.com/wp-content/uploads/2020/03/66-Creat-Online-Course-1024x522.jpg"
+            class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Python Tutorial</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+              content.</p>
+            <a type="button" href="course.html" class="btn btn-primary">Start Course</a>
+          </div>
+        </div>
+      </div>
+      <div class="col text-center">
+        <div class="card">
+          <img src="https://www.eleapsoftware.com/wp-content/uploads/2020/03/66-Creat-Online-Course-1024x522.jpg"
+            class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Python Tutorial</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+              content.</p>
+            <a type="button" href="course.html"  class="btn btn-primary">Start Course</a>
+          </div>
+        </div>
+      </div>
+      <div class="col text-center">
+        <div class="card">
+          <img src="https://www.eleapsoftware.com/wp-content/uploads/2020/03/66-Creat-Online-Course-1024x522.jpg"
+            class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Python Tutorial</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+              content.</p>
+            <a type="button" href="course.html" class="btn btn-primary">Start Course</a>
+          </div>
+        </div>
+      </div>
+      <div class="col text-center">
+        <div class="card">
+          <img src="https://www.eleapsoftware.com/wp-content/uploads/2020/03/66-Creat-Online-Course-1024x522.jpg"
+            class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Python Tutorial</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+              content.</p>
+            <a href="course.html" class="btn btn-primary">Start Course</a>
+          </div>
+        </div>
+      </div>
+      <div class="col text-center">
+        <div class="card">
+          <img src="https://www.eleapsoftware.com/wp-content/uploads/2020/03/66-Creat-Online-Course-1024x522.jpg"
+            class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Python Tutorial</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+              content.</p>
+            <button type="button" href="course.html" class="btn btn-primary">Start Course</button>
+          </div>
+        </div>
+      </div>
+  
+      
+      
+    </div>
+    <div class="d-grid gap-2">
+
+        <button class="btn btn-outline-primary my-2" type="button">Explore More Courses</button>
+      
+    </div>
+ </section>
+
+
+ <section class="bottom my-2 ">
+  <div class="botnav">
+      <div class="botnav1">
+          <h4>OkayG</h3>
+          <p>Copyright © 2020</p>
+      </div>
+      <div class="botnav2">
+          <ul>
+              <li><a href="Index.html">Home</a></li>
+              <li><a href="features.html">Carrier</a></li>
+              <li><a href="docs.html">Blog</a></li>
+              <li><a href="docs.html">Terms</a></li>
+              <li><a href="docs.html">Privacy Policy</a></li>
+          </ul>
+      </div>
+      <div class="botnav3">
+          <a href="#"><i class="fab fa-github fa-2x"></i></a>
+          <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
+          <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
+          <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+      </div>
+  </div>
+</section>
+
+
+  
+
+
+
+
+
+
+
+ <style>
+    /* media quiries start  */
+    /* laptop  */
+    @media  (max-width:799px) {
+
+      .container1{
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+      }
+      .container2{
+        width: 100%;
+        height: auto;
+      }
+      .container2 img{
+        width: 100%;
+        /* display: none; */
+        
+      }
+      .msd{
+        margin-top: 25px;
+      }
+      .abd button{
+        padding: 25px;
+        margin: 25px;
+      }
+      .sec1{
+        height: 170vh;
+        width: 100%;
+      }
+      .sec2{
+        height: 57vh;
+        display: none;
+      }
+
+      .sec5{
+        display: none;
+      }
+    
+
+      .sec3{
+        width: 100%;
+        height: auto;
+      }
+ 
+      /* .accordion{
+        width: 508vw;
+      } */
+      .accordion-item w-75{
+        width: 39rem;
+      }
+    .sec4{
+      height: 47vh;
+      
+    }
+    
+    
+    .card-body{
+      width: 48vw;
+      /* width: 100%; */
+    }
+    .card-body p{
+      width: 62vw;
+    } 
+
+    .card {
+        width: 21rem;
+    }
+
+    }
+
+    /* phone  */
+    
+@media (max-width:477px) {
+
+
+
+  .container1{
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+      }
+      .container2{
+        width: 100%;
+        height: auto;
+      }
+      .container2 img{
+        width: 100%;
+        /* display: none; */
+        
+      }
+      
+    
+      .sec1{
+        height: 170vh;
+        width: 100%;
+      }
+      .sec2{
+        display: none;
+      }
+      
+      .sec3{
+        width: 100%;
+        height: auto;
+      }
+      .accordion{
+        
+        width: 30vw;
+      }
+    .accordion-item{
+        width: 34rem;
+      }
+    .sec4{
+      height: 47vh;
+    }
+
+    .card{
+      width: 30rem;
+    }
+    .card .card-ab{
+      width: 3rem;
+      
+    }
+    .card-body{
+      width: 64vw;
+    }
+    .accordion-item {
+      width: 80vw;
+    }
+    .card {
+        width: 19rem;
+    }
+
+}
+
+  </style>  
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
